@@ -5,7 +5,7 @@ const date = ref(null)
 
 <template>
     <v-card>
-        <v-card-title>3 задание</v-card-title>
+        <v-card-title>3 Задание</v-card-title>
         <v-card-text>
             <v-date-picker v-model="date" />
             <v-text-field :model-value="date ? date.toLocaleDateString() : ''" label="Выбранная дата" readonly />

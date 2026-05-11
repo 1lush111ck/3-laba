@@ -16,7 +16,7 @@ const directions = [
 
 <template>
   <v-card>
-    <v-card-title>Задание 4</v-card-title>
+    <v-card-title>4 Задание</v-card-title>
     <v-card-text>
       <v-autocomplete v-model="selected" :items="directions" label="Направление бакалавриата ИСМАРТ" />
       <div v-if="selected">Выбрано: {{ selected }}</div>

@@ -13,7 +13,7 @@ function onSubmit() {
 
 <template>
   <v-card>
-    <v-card-title>Задание 5</v-card-title>
+    <v-card-title>5 Задание</v-card-title>
     <v-card-text>
       <v-btn @click="dialog = true">Открыть диалог</v-btn>
       <v-dialog v-model="dialog" max-width="400">

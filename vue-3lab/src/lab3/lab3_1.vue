@@ -6,7 +6,7 @@ const text = ref('')
 
 <template>
     <v-card>
-        <v-card-title>1 задание</v-card-title>
+        <v-card-title>1 Задание</v-card-title>
         <v-card-text>
             <v-text-field v-model="text"></v-text-field>
             <div>Ваш текст: {{ text }}</div>

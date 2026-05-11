@@ -6,7 +6,7 @@ const selected = ref([])
 
 <template>
   <v-card>
-    <v-card-title>Задание 7</v-card-title>
+    <v-card-title>7 Задание</v-card-title>
     <v-card-text>
       <v-checkbox v-model="selected" label="Опция 1" value="Опция 1" />
       <v-checkbox v-model="selected" label="Опция 2" value="Опция 2" />

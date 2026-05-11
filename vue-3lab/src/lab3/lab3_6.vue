@@ -6,7 +6,7 @@ const selected = ref(null)
 
 <template>
   <v-card>
-    <v-card-title>Задание 6</v-card-title>
+    <v-card-title>6 Задание</v-card-title>
     <v-card-text>
       <v-radio-group v-model="selected">
         <v-radio label="Вариант A" value="A" />
